@@ -16,6 +16,11 @@ MDP.AspNetCore.AdminLTE是開源的.NET開發套件，協助開發人員快速�
 - 程式源碼：[https://github.com/Clark159/MDP.AspNetCore.AdminLTE/](https://github.com/Clark159/MDP.AspNetCore.AdminLTE/)
 
 
+## 平台架構
+
+![MDP.AspNetCore.AdminLTE-平台架構](https://clark159.github.io/MDP.AspNetCore.AdminLTE/功能說明/MDP.AspNetCore.AdminLTE-平台架構.png)
+
+
 ## 版本更新
 
 無
