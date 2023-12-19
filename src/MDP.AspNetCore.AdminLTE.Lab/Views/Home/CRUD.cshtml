@@ -24,7 +24,7 @@
     <div class="container-fluid">
 
         <!-- search -->
-        <div class="card collapse show" id="searchPanel">
+        <div class="card show collapse in" id="searchPanel">
             <div class="card-body pb-1">
                 <form class="row" action="/pages/crud.html" method="get">
 
@@ -89,71 +89,22 @@
                                 </tr>
                             </thead>
                             <tbody>
-                                <tr>
-                                    <td class="td td-fit"><input type="checkbox" /></td>
-                                    <td>Data001</td>
-                                    <td>Data002</td>
-                                    <td>Data003</td>
-                                    <td>Data004</td>
-                                    <td>Data005</td>
-                                    <td class="td td-fit">
-                                        <a class="btn btn-sm btn-info" onclick="alert('內容');"> <i class="fa fa-eye"></i>&nbsp;內容</a>
-                                        <a class="btn btn-sm btn-success" onclick="alert('修改');"><i class="fa fa-edit"></i>&nbsp;修改</a>
-                                        <a class="btn btn-sm btn-danger" onclick="alert('刪除');"><i class="fa fa-times"></i>&nbsp;刪除</a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td class="td td-fit"><input type="checkbox" /></td>
-                                    <td>Data001</td>
-                                    <td>Data002</td>
-                                    <td>Data003</td>
-                                    <td>Data004</td>
-                                    <td>Data005</td>
-                                    <td class="td td-fit">
-                                        <a class="btn btn-sm btn-info" onclick="alert('內容');"> <i class="fa fa-eye"></i>&nbsp;內容</a>
-                                        <a class="btn btn-sm btn-success" onclick="alert('修改');"><i class="fa fa-edit"></i>&nbsp;修改</a>
-                                        <a class="btn btn-sm btn-danger" onclick="alert('刪除');"><i class="fa fa-times"></i>&nbsp;刪除</a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td class="td td-fit"><input type="checkbox" /></td>
-                                    <td>Data001</td>
-                                    <td>Data002</td>
-                                    <td>Data003</td>
-                                    <td>Data004</td>
-                                    <td>Data005</td>
-                                    <td class="td td-fit">
-                                        <a class="btn btn-sm btn-info" onclick="alert('內容');"> <i class="fa fa-eye"></i>&nbsp;內容</a>
-                                        <a class="btn btn-sm btn-success" onclick="alert('修改');"><i class="fa fa-edit"></i>&nbsp;修改</a>
-                                        <a class="btn btn-sm btn-danger" onclick="alert('刪除');"><i class="fa fa-times"></i>&nbsp;刪除</a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td class="td td-fit"><input type="checkbox" /></td>
-                                    <td>Data001</td>
-                                    <td>Data002</td>
-                                    <td>Data003</td>
-                                    <td>Data004</td>
-                                    <td>Data005</td>
-                                    <td class="td td-fit">
-                                        <a class="btn btn-sm btn-info" onclick="alert('內容');"> <i class="fa fa-eye"></i>&nbsp;內容</a>
-                                        <a class="btn btn-sm btn-success" onclick="alert('修改');"><i class="fa fa-edit"></i>&nbsp;修改</a>
-                                        <a class="btn btn-sm btn-danger" onclick="alert('刪除');"><i class="fa fa-times"></i>&nbsp;刪除</a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td class="td td-fit"><input type="checkbox" /></td>
-                                    <td>Data001</td>
-                                    <td>Data002</td>
-                                    <td>Data003</td>
-                                    <td>Data004</td>
-                                    <td>Data005</td>
-                                    <td class="td td-fit">
-                                        <a class="btn btn-sm btn-info" onclick="alert('內容');"> <i class="fa fa-eye"></i>&nbsp;內容</a>
-                                        <a class="btn btn-sm btn-success" onclick="alert('修改');"><i class="fa fa-edit"></i>&nbsp;修改</a>
-                                        <a class="btn btn-sm btn-danger" onclick="alert('刪除');"><i class="fa fa-times"></i>&nbsp;刪除</a>
-                                    </td>
-                                </tr>
+                                @for (int i = 0; i < 10; i++)
+                                {
+                                    <tr>
+                                        <td class="td td-fit"><input type="checkbox" /></td>
+                                        <td>Data001</td>
+                                        <td>Data002</td>
+                                        <td>Data003</td>
+                                        <td>Data004</td>
+                                        <td>Data005</td>
+                                        <td class="td td-fit">
+                                            <a class="btn btn-sm btn-info" onclick="alert('內容');"> <i class="fa fa-eye"></i>&nbsp;內容</a>
+                                            <a class="btn btn-sm btn-success" onclick="alert('修改');"><i class="fa fa-edit"></i>&nbsp;修改</a>
+                                            <a class="btn btn-sm btn-danger" onclick="alert('刪除');"><i class="fa fa-times"></i>&nbsp;刪除</a>
+                                        </td>
+                                    </tr>
+                                }
                             </tbody>
                         </table>
                     </div>

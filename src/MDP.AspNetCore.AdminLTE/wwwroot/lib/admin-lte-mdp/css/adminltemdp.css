@@ -25,6 +25,11 @@
 	color: #ffffff;
 }
 
+/* card */
+.card[aria-expanded="false"] {
+	margin-bottom: 0rem;
+}
+
 /* table */
 .table .th {
 
